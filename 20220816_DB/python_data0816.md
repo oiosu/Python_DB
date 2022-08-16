@@ -1,6 +1,6 @@
 ## 📑 Database
 
-![image-20220816151449772](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816151449772.png)
+![image](https://user-images.githubusercontent.com/99783474/184887116-b0bdf9e8-89bf-49fc-a52c-cfdc9339f42f.png)
 
 - 데이터베이스는 **체계화된 데이터**의 모임
 - 여러 사람이 공유하고 사용할 목적으로 통합 관리되는 정보의 집합
@@ -30,15 +30,14 @@
 * 서로 관련된 데이터를 저장하고 접근할 수 있는 데이터 베이스 유형 
 * 키 와 값 (핵심은 표로 정리된 것)
 
-![image-20220816150846553](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816150846553.png)
-
+![image](https://user-images.githubusercontent.com/99783474/184887192-bd33ba52-f70d-4cca-ad22-9061222f37b0.png)
 
 
 * 스키마 (schema) 
 
 > 데이터 베이스에서 자료의 **구조**, 표현방법, 관계등 전반적인 **명세를 기술**한 것 
 
-![image-20220816151626194](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816151626194.png)
+![image](https://user-images.githubusercontent.com/99783474/184887287-3b64663a-0218-43c5-8576-4ae83fc01b0e.png)
 
 
 
@@ -68,15 +67,14 @@
 
 
 
-![image-20220816151903569](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816151903569.png)
-
+![image](https://user-images.githubusercontent.com/99783474/184887463-16ef88c3-e1b8-4b23-98a2-4d7aa2039205.png)
 
 
 ◼ 열(column) : 각 열에 고유한 데이터 형식 지정 
 
 : 아래의 예시에서는 name이란 필드에 고객의 이름(TEXT) 정보가 저장 
 
-![image-20220816152012667](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816152012667.png)
+![image](https://user-images.githubusercontent.com/99783474/184887523-083f4184-3885-4574-80c0-97f5e81e1aba.png)
 
 
 
@@ -84,7 +82,7 @@
 
 : 아래의 예시에서는 총 3명의 고객 정보가 저장되어 있음(레코드가 3개)
 
-![image-20220816152227055](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816152227055.png)
+![image](https://user-images.githubusercontent.com/99783474/184887586-4c693638-3834-466d-acfb-e22fe9eb9808.png)
 
 
 
@@ -92,7 +90,7 @@
 
 : 반드시 설정해야 하며, 데이터 베이스 관리 및 관계 설정 시 주요하게 활용 됨 
 
-![image-20220816152340483](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816152340483.png)
+![image](https://user-images.githubusercontent.com/99783474/184887642-3905c237-cca1-4d47-8ea3-5bb86eaceb58.png)
 
 ---
 
@@ -213,7 +211,7 @@ $ sqlite3 tutorial.sqlite3
 sqlite> .database
 ```
 
-![image-20220816154837850](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816154837850.png)
+![image](https://user-images.githubusercontent.com/99783474/184887795-977fc917-3757-4b00-919a-f4922e113579.png)
 
 
 
@@ -347,8 +345,7 @@ examples
 
 ##### 📌 다음과 같은 스키마(schema)를 가지고 있는 classmates 테이블을 만들고 스키마를 확인해보세요. 
 
-![image-20220816164056813](C:\Users\LGE\AppData\Roaming\Typora\typora-user-images\image-20220816164056813.png)
-
+![image](https://user-images.githubusercontent.com/99783474/184887889-f339ea35-5b3a-4901-84ec-bfad9ad68384.png)
 ```sqlite
 CREATE TABLE classmates (
 name TEXT,
