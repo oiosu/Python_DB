@@ -71,3 +71,6 @@ _ **SQLite** 로 사용할 계획
 
 ![image](https://user-images.githubusercontent.com/99783474/184893522-b8ffe90f-a785-477e-a56a-a13fd19272c4.png)
 
+---
+
+### [Python_Database Day_01](https://github.com/oiosu/Python_DB/blob/main/20220816_DB/python_data0816.md)
