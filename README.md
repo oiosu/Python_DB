@@ -1,6 +1,6 @@
 # 🌾 Python_DB
-### 🚀 [Python_Database Day_01](https://github.com/oiosu/Python_DB/blob/main/20220816_DB/python_data0816.md)
-### 🚀 [Python_Database Day_01_실습](https://github.com/oiosu/Python_DB/blob/main/20220816_DB/README.md)
+### 🌱 [Python_Database Day_01](https://github.com/oiosu/Python_DB/blob/main/20220816_DB/python_data0816.md)
+### 🌱 [Python_Database Day_01_실습](https://github.com/oiosu/Python_DB/blob/main/20220816_DB/README.md)
 ![image](https://user-images.githubusercontent.com/99783474/184888276-a8834876-b116-4ee4-8a24-9a6600d26dfb.png)
 
 - 데이터베이스는 **체계화된 데이터**의 모임
@@ -74,9 +74,9 @@ _ **SQLite** 로 사용할 계획
 
 ---
 
-### 🚀[Python_Database Day_02](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)
+### 🌱[Python_Database Day_02](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)
 
-### 🚀 [Python_Database Day_02_실습](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/2%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
+### 🌱 [Python_Database Day_02_실습](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/2%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
 ---
 
 ### [📑 WHERE](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)
