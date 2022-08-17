@@ -127,5 +127,9 @@ WHERE (HEIGHT = 175 OR HEIGHT = 183) AND WEIGHT = 80  -- 애매하다고 느껴�
 * EX) 테이블 전체 행 수를 구하는 **COUNT(*)**
 * EX) age 컬럼 전체 평균 값을 구하는 **AVG(age)**
 
-![image](https://user-images.githubusercontent.com/99783474/185176072-4d3ea818-7ef8-4f72-bbe4-9f3f593f8860.png)
+![image](https://user-images.githubusercontent.com/99783474/185177046-4040e35d-9270-4b2f-8f19-5a2db65f215e.png)
+
+### [ 📑 LIKE](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)  [📑 ORDER BY _ (sorting) ](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)
+
+![image](https://user-images.githubusercontent.com/99783474/185177150-638346ca-9939-40fb-8c5c-36b41b3e414e.png)
 
