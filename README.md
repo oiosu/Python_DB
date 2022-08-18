@@ -159,7 +159,6 @@ WHERE (HEIGHT = 175 OR HEIGHT = 183) AND WEIGHT = 80  -- 애매하다고 느껴�
 >
 > age 컬럼 전체 평균 값을 구하는 **AVG(age)**
 
-![image](https://user-images.githubusercontent.com/99783474/185345053-4c0e0a21-5c6a-448d-8f4f-f9c4d35a85ce.png)
 
 
 
