@@ -77,6 +77,8 @@ _ **SQLite** 로 사용할 계획
 ### 🌱[Python_Database Day_02](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)
 
 ### 🌱 [Python_Database Day_02_실습](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/2%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
+
+### 🌱[Python_Database Day_02_실습 해설](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
 ---
 
 ### [📑 WHERE](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)
@@ -131,5 +133,70 @@ WHERE (HEIGHT = 175 OR HEIGHT = 183) AND WEIGHT = 80  -- 애매하다고 느껴�
 
 ### [ 📑 LIKE](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)  [📑 ORDER BY _ (sorting) ](https://github.com/oiosu/Python_DB/blob/main/20220817_DB/python_data0817.md)
 
-![image](https://user-images.githubusercontent.com/99783474/185177150-638346ca-9939-40fb-8c5c-36b41b3e414e.png)
 
+---
+
+### 🌱[Python_Database Day_03](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+
+### 🌱 [Python_Database Day_03_실습](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+
+---
+
+### [📑 기본 함수와 연산](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md) 
+
+### [💡 문자열 함수  & 숫자 함수](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md) 
+
+
+### [📑 GROUP BY](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+
+**_ Agrregate function (집계함수) 다시보기** 
+
+* 값 집합에 대한 계산을 수행하고 **단일 값을 반환**
+  * 여러 행으로부터 하나의 결괏값을 반환하는 함수 
+* SELECT 구문에서만 사용됨 
+
+> 테이블 전체 행 수를 구하는 **COUNT(*)**
+>
+> age 컬럼 전체 평균 값을 구하는 **AVG(age)**
+
+![image](https://user-images.githubusercontent.com/99783474/185345053-4c0e0a21-5c6a-448d-8f4f-f9c4d35a85ce.png)
+
+
+
+### - **ALIAS** 
+
+* 칼럼명이나 테이블명이 너무 길거나 다른 명칭으로 확인하고 싶을 떄는 ALIAS를 활용
+* **AS를 생략하여 공백으로 표현할 수 있음**
+* 별칭에 공백, 특수문자 등이 있는 경우 따옴표로 묶어서 표기 
+
+
+### [💡 GROUP BY](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md) 
+
+#### (행을 그룹해주는 것이고 각각 집계함수로 넘겨주는 것)
+
+* 지정된 컬럼의 값이 같은 행들로 묶음
+* **⭐ 집계함수와 활용하였을 때 의미가 있음**(같이 묶어서 조회해주기 때문)
+* 그룹화된 각각의 그룹이 하나의 집합으로 집계함수의 인수로 넘겨짐
+
+```sql
+SELECT 칼럼명
+FROM 테이블명 
+WHERE 조건식
+GROUP BY 칼럼 혹은 표현식
+HAVING 그룹조건식
+ORDER BY 칼럼 혹은 표현식
+LIMIT 숫자 OFFSET 숫자;
+```
+
+![image](https://user-images.githubusercontent.com/99783474/185345674-84b23e87-2643-4641-9bbf-a1f22c4d3d16.png)
+![image](https://user-images.githubusercontent.com/99783474/185345749-24ab32a2-3cce-4ab4-8fdb-94bd0f3a2b05.png)
+
+
+### [💡 HAVING](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+
+* 집계함수는 WHERE 절의 조건식에서는 사용할 수 없음_실행 순서에 의해 
+  * **WHERE 로 처리하는 것이 GROUP BY 그룹화보다 순서상 앞서 있기 때문**
+* 집계 결과에서 조건에 맞는 값을 따로 활용하기 위해서 HAVING 을 활용 
+
+
+---
