@@ -199,3 +199,8 @@ LIMIT 숫자 OFFSET 숫자;
 
 
 ---
+
+### 🌱[Python_Database Day_04](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+
+### 🌱 [Python_Database Day_04_실습](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+
