@@ -200,7 +200,28 @@ LIMIT 숫자 OFFSET 숫자;
 
 ---
 
-### 🌱[Python_Database Day_04](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+### 🌱[Python_Database Day_04](https://github.com/oiosu/Python_DB/blob/main/20220819_DB/20220819_DB.md)
 
-### 🌱 [Python_Database Day_04_실습](https://github.com/oiosu/Python_DB/blob/main/20220818_DB/03%EC%8B%A4%EC%8A%B5.md)
+### 🌱 [Python_Database Day_04_실습](https://github.com/oiosu/Python_DB/blob/main/20220819_DB/20220819_DB.md)
+
+---
+
+### [💡 CASE](https://github.com/oiosu/Python_DB/blob/main/20220819_DB/20220819_DB.md)
+
+- CASE문은 특정 상황에서 데이터를 변환하여 활용할 수 있음
+- ELSE를 생략하는 경우 NULL 값이 지정됨
+
+```sql
+CASE 
+	WHEN 조건식 THEN 식
+	WHEN 조건식 THEN TLR
+	ELSE 식
+CASE
+```
+
+### 서브쿼리 / 메인쿼리 
+
+![image](https://user-images.githubusercontent.com/99783474/185796986-8ceca92c-02a0-43c7-9441-b4ba8032cba0.png)
+
+
 
