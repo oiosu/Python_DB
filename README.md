@@ -223,5 +223,38 @@ CASE
 
 ![image](https://user-images.githubusercontent.com/99783474/185796986-8ceca92c-02a0-43c7-9441-b4ba8032cba0.png)
 
+---
 
+### 🌱[Python_Database Day_04](https://github.com/oiosu/Python_DB/blob/main/20220822_DB/5%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
+
+### 🌱 [Python_Database Day_04_실습](https://github.com/oiosu/Python_DB/blob/main/20220822_DB/5%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
+
+---
+
+### 🔵 INNER JOIN _ 두 테이블에 모두 일치하는 행만 반환
+
+![image](https://user-images.githubusercontent.com/99783474/185911703-5ad9d0ee-bb97-4ad7-8802-0ac9903768ed.png)
+
+
+### 🔵 OUTER JOIN _ 동일한 값이 없는 행도 반환
+
+![image](https://user-images.githubusercontent.com/99783474/185911804-68009fc0-e1f2-4851-a333-85c9cf180755.png)
+
+### 🔵 CROSS JOIN _ 모든 가능한 경우의 수의 JOIN
+
+```sql
+SELECT *
+FROM 테이블1 CROSS JOIN 테이블2;
+```
+```sql
+-- 모든 게시글과 모든 사용자 정보를 출력하시오. 
+ 
+SELECT *
+FROM articles FULL OUTER JOIN users
+	ON users.id = articles.user_id;
+```
+
+### [SQL_JOINS_VISUALIZER](SQL Joins Visualizer (leopard.in.ua))
+
+![image](https://user-images.githubusercontent.com/99783474/185912128-42ea205c-6642-40ef-8e4f-e435405de06c.png)
 
