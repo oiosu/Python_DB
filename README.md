@@ -258,3 +258,7 @@ FROM articles FULL OUTER JOIN users
 
 ![image](https://user-images.githubusercontent.com/99783474/185912128-42ea205c-6642-40ef-8e4f-e435405de06c.png)
 
+---
+
+
+
