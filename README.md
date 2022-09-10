@@ -307,8 +307,25 @@ FROM articles FULL OUTER JOIN users
 
 	* 클래스를 생성하여 내가 원하는 DB의 구조를 만든다. 
 	
-	* 클래스의 내용으로 데이터베이스에 반영하기 위한 마이그레이션 파일을 생성**한다
+	* 클래스의 내용으로 데이터베이스에 반영하기 위한 마이그레이션 파일을 생성한다
 
+---
+
+### 🌱[Python_Database Day_08](https://github.com/oiosu/Python_DB/blob/main/20220823_DB/20220823_DB.md)
+
+### 🌱 [Python_Database Day_09_실습](https://github.com/oiosu/Python_DB/tree/main/20220823_DB)
+
+---
+
+#### ✔ 모델 설계 
+
+#### **(1) 클래스를 생성하여 내가 원하는 DB의 구조를 만든다.** 
+
+#### **(2) 모델 설계 및 반영** 
+
+	* 클래스를 생성하여 내가 원하는 DB의 구조를 만든다. 
+	
+	* 클래스의 내용으로 데이터베이스에 반영하기 위한 마이그레이션 파일을 생성**한다
 
 
 
