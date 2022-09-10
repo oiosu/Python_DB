@@ -262,3 +262,5 @@ FROM articles FULL OUTER JOIN users
 
 
 
+### 💡 ERD(Entity Relationship Diagram) _개체 관계 모델 
+
