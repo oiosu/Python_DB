@@ -225,9 +225,9 @@ CASE
 
 ---
 
-### 🌱[Python_Database Day_04](https://github.com/oiosu/Python_DB/blob/main/20220822_DB/5%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
+### 🌱[Python_Database Day_05](https://github.com/oiosu/Python_DB/blob/main/20220822_DB/5%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
 
-### 🌱 [Python_Database Day_04_실습](https://github.com/oiosu/Python_DB/blob/main/20220822_DB/5%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
+### 🌱 [Python_Database Day_05_실습](https://github.com/oiosu/Python_DB/blob/main/20220822_DB/5%EC%9D%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)
 
 ---
 
@@ -260,9 +260,9 @@ FROM articles FULL OUTER JOIN users
 
 ---
 
-### 🌱[Python_Database Day_05](https://github.com/oiosu/Python_DB/blob/main/20220823_DB/20220823_DB.md)
+### 🌱[Python_Database Day_06](https://github.com/oiosu/Python_DB/blob/main/20220823_DB/20220823_DB.md)
 
-### 🌱 [Python_Database Day_05_실습](https://github.com/oiosu/Python_DB/tree/main/20220823_DB)
+### 🌱 [Python_Database Day_06_실습](https://github.com/oiosu/Python_DB/tree/main/20220823_DB)
 
 ---
 
@@ -289,6 +289,25 @@ FROM articles FULL OUTER JOIN users
 ### 💡 Crow’s feet
 
 ![image](https://user-images.githubusercontent.com/99783474/189498245-3562bc81-f95b-4dca-a15a-44966dd94561.png)
+
+
+---
+
+### 🌱[Python_Database Day_07](https://github.com/oiosu/Python_DB/blob/main/20220823_DB/20220823_DB.md)
+
+### 🌱 [Python_Database Day_07_실습](https://github.com/oiosu/Python_DB/tree/main/20220823_DB)
+
+---
+
+#### ✔ 모델 설계 
+
+#### **(1) 클래스를 생성하여 내가 원하는 DB의 구조를 만든다.** 
+
+#### **(2) 모델 설계 및 반영** 
+
+	* 클래스를 생성하여 내가 원하는 DB의 구조를 만든다. 
+	
+	* 클래스의 내용으로 데이터베이스에 반영하기 위한 마이그레이션 파일을 생성**한다
 
 
 
