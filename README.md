@@ -260,7 +260,37 @@ FROM articles FULL OUTER JOIN users
 
 ---
 
+### 🌱[Python_Database Day_05](https://github.com/oiosu/Python_DB/blob/main/20220823_DB/20220823_DB.md)
+
+### 🌱 [Python_Database Day_05_실습](https://github.com/oiosu/Python_DB/tree/main/20220823_DB)
+
+---
 
 
 ### 💡 ERD(Entity Relationship Diagram) _개체 관계 모델 
+
+    엔터티(Entity) : 업무가 관여하는 정보
+    속성(Attribute) : Entity가 가지는 성격, 데이터 타입과 크기 및 제약사항 지정
+    관계(Relationship) : Entity 간의 관계, 연관성
+
+
+![image](https://user-images.githubusercontent.com/99783474/189498228-8e55a37d-d183-4e6d-a3a2-886b41fdc566.png)
+
+
+◼ 사람들이 많은 글을 작성합니다. ◼ 글은 사람들이 작성합니다. ◼ 글은 댓글들을 가지고 있어요
+
+◼ 글은 이미지, 영상, 내용을 포함합니다. ◼ 댓글은 사람이 작성해요. 글이 있어야만 해요.
+
+◼ 사람들은 역할을 가지고 있습니다. ◼ 사람들이 글에 좋아요를 누릅니다.
+
+◼ 글은 사람들에 의해서 좋아요를 받습니다.
+
+
+### 💡 Crow’s feet
+
+![image](https://user-images.githubusercontent.com/99783474/189498245-3562bc81-f95b-4dca-a15a-44966dd94561.png)
+
+
+
+
 
